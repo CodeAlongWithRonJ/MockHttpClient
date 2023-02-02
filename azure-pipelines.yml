@@ -24,3 +24,4 @@ steps:
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg;!$(Build.ArtifactStagingDirectory)/*.symbols.nupkg'
     nuGetFeedType: 'external'
     publishFeedCredentials: 'CodeAlongWithRonNuget'
+  displayName: 'Push to nuget.org'
