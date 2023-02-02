@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Cawr.MockHttpClient</PackageId>
+    <Version>0.1.1</Version>
+    <Authors>Ron</Authors>
+    <Company>CodeAlongWithRon</Company>
+    <Description>Provides a factory that makes it possible to create httpclients through dependency injection. And also adds a MockHttpClientFactory that makes it possible to mock the response from the various REST methods of HttpClient.</Description>
+    <RepositoryUrl>https://www.github.com/CodeAlongWithRon/MockHttpClient</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>httpclient mock mocking unittest unittesting</PackageTags>
+    <PackageReleaseNotes>First version.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
